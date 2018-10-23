@@ -6,6 +6,7 @@ using System;
 
 namespace Microsoft.AspNetCore.Authentication
 {
+    // NOTE: Added by AuthenticationServiceCollectionExtensions.AddAuthentication. Adds a very simple implementation using DateTime.UtcNow
     /// <summary>
     /// Abstracts the system clock to facilitate testing.
     /// </summary>
